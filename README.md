@@ -12,4 +12,4 @@ This repository contains my solutions to Data Structures and Algorithms problems
 | 4 | Merge Intervals | 0 | 8 | [Go to Folder](./04-Merge-Intervals) |
 
 ## 🛠️ Languages Used
-      Java
+      Java 
