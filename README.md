@@ -1,6 +1,6 @@
 # 🚀 DSA Pattern-Wise Solutions
 
-This repository contains my solutions to Data Structures and Algorithms problems, categorized by patterns.
+This repository contains my solutions to Data Structures and Algorithms problems, categorized by patterns. 
 
 ## 📌 Progress Tracker
 
