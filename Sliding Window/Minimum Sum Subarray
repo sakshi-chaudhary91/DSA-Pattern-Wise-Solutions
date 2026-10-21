@@ -1,0 +1,25 @@
+class Solution {
+    public int minSubarraySum(int[] arr) {
+        int minSum = arr[0];
+        int currentSum = arr[0];
+        int start = 0;
+        int end = 0;
+        int s = 0;
+        
+        for(int i = 1; i < arr.length; i++){
+            if(arr[i] < currentSum + arr[i]){
+                currentSum = arr[i];
+                s = i;
+            } else{
+                currentSum = currentSum + arr[i]; 
+            }
+            if(currentSum < minSum){
+                minSum = currentSum ;
+                start = s;
+                end = i;
+            }
+        }
+        return minSum;
+        
+    }
+}
